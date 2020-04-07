@@ -58,6 +58,17 @@
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:4e703f04450e285e44cda44020055a5d6cd77145196e55b66cb37fb2b10aab92"
+  name = "github.com/ricardo-ch/go-kafka-connect"
+  packages = [
+    "cli/cmd",
+    "lib/connectors",
+  ]
+  pruneopts = "UT"
+  revision = "f7b66cb04ed725ee9e8960ca695fa7beecc04429"
+  version = "2.1.0"
+
+[[projects]]
   digest = "1:7ffc0983035bc7e297da3688d9fe19d60a420e9c38bef23f845c53788ed6a05e"
   name = "github.com/spf13/cobra"
   packages = ["."]
@@ -149,6 +160,8 @@
     "bou.ke/monkey",
     "github.com/hashicorp/go-multierror",
     "github.com/pkg/errors",
+    "github.com/ricardo-ch/go-kafka-connect/cli/cmd",
+    "github.com/ricardo-ch/go-kafka-connect/lib/connectors",
     "github.com/spf13/cobra",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/mock",
